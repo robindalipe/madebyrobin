@@ -1,0 +1,27 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: #FFF7C7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFF7C7; /* Gecko Browsers */
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+
+  @media (max-width: $max-width-sm) {
+    padding: 0 20px;
+  }
+}
+
+.max-container {
+  max-width: 1440px;
+  margin: auto;
+
+  @media (max-width: $max-width-sm) {
+    padding: 0 20px;
+  }
+}
